@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: Verdana, sans-serif; /*https://www.w3schools.com/css/css_font.asp*/
+    }
+    /* stylize the button https://www.w3schools.com/css/css3_buttons.asp*/
+    /* same features in both buttons */
+    button, .button2{
+      font-size: 16px;
+      border-radius: 5px;
+      color: #6b3ac2; /*purple text*/
+      background-color: #EBC0EB; /*light pink*/
+      border: 2px solid #9779cc; /*purple*/
+      padding: 8px 30px; /*height width*/
+    }
+    /*change color when pressed*/
+    button:hover {
+      background-color: #d89fe3; /*pink*/
+      color: white;
+    }
+
+    /*style input box*/
+    input {
+      width: 50%;
+      padding: 12px 20px;
+    }
+  </style>
+  <script src="../p5.js"></script>
+  <!-- <script src="../addons/p5.sound.js"></script> -->
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <p>City: <input id="city"></input></p>
+  </br>
+  <button id="submit">submit</button>
+</body>
+
+</html>
